@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3215083320CCBB4D00B563F5 /* UIReportLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3215083220CCBB4D00B563F5 /* UIReportLogger.swift */; };
 		323A8264209E10BD005B25C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323A8263209E10BD005B25C4 /* AppDelegate.swift */; };
 		323A8266209E10BD005B25C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323A8265209E10BD005B25C4 /* ViewController.swift */; };
 		323A8269209E10BD005B25C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 323A8267209E10BD005B25C4 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		323A826E209E10BD005B25C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 323A826C209E10BD005B25C4 /* LaunchScreen.storyboard */; };
 		323A8279209E10BD005B25C4 /* UIReportsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323A8278209E10BD005B25C4 /* UIReportsTests.swift */; };
 		323A8284209E10BD005B25C4 /* UIReportsTextFieldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323A8283209E10BD005B25C4 /* UIReportsTextFieldUITests.swift */; };
+		324A3AC5209FE78900A1F9FA /* UIReportsUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324A3AC4209FE78900A1F9FA /* UIReportsUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3215083220CCBB4D00B563F5 /* UIReportLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIReportLogger.swift; sourceTree = "<group>"; };
 		323A8260209E10BD005B25C4 /* UIReports.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIReports.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		323A8263209E10BD005B25C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		323A8265209E10BD005B25C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		323A827F209E10BD005B25C4 /* UIReportsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIReportsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		323A8283209E10BD005B25C4 /* UIReportsTextFieldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIReportsTextFieldUITests.swift; sourceTree = "<group>"; };
 		323A8285209E10BD005B25C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		324A3AC4209FE78900A1F9FA /* UIReportsUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIReportsUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,8 @@
 			children = (
 				323A8283209E10BD005B25C4 /* UIReportsTextFieldUITests.swift */,
 				323A8285209E10BD005B25C4 /* Info.plist */,
+				324A3AC4209FE78900A1F9FA /* UIReportsUtils.swift */,
+				3215083220CCBB4D00B563F5 /* UIReportLogger.swift */,
 			);
 			path = UIReportsUITests;
 			sourceTree = "<group>";
@@ -277,6 +283,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				323A8284209E10BD005B25C4 /* UIReportsTextFieldUITests.swift in Sources */,
+				324A3AC5209FE78900A1F9FA /* UIReportsUtils.swift in Sources */,
+				3215083320CCBB4D00B563F5 /* UIReportLogger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
